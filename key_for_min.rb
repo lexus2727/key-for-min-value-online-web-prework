@@ -14,14 +14,14 @@ require 'pry'
    #Iterate new array
    name_a.each do |i|
     
-   
+   binding.pry 
     if i[1] < d_value
        d_value = i[1]
        d_key = i[0]
      end
    end
    end
- #binding.pry
+
    d_key
    
  end
